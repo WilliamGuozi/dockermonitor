@@ -6,6 +6,8 @@ collect command `docker stats` metric data to graphite and display by grafana.
 
 modify config file config.toml,  put it into directory /opt/dockermonitor and run deploy command below.
 
+`docker build ` first.
+
 ## Test and Deploy
 
 ```bash
