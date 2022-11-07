@@ -1,0 +1,16 @@
+[log]
+#debug info warning error
+level = "debug"
+
+[graphite]
+server = 'graphite-ops.glinux.top'
+port = 2003
+prefix = 'docker'
+
+[docker]
+base_url = 'unix://var/run/docker.sock'
+
+[server]
+# collect data interval 30s
+interval = 30
+hostname = "macserver"
